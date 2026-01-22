@@ -37,4 +37,4 @@ Estos archivos son prácticas educativas realizadas en clase, por lo que pueden 
 
 ---
 
-✍️ *Hecho por [Tu Nombre]*
+✍️ *Hecho por [Alejandro]*
