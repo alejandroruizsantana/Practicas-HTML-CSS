@@ -1,0 +1,129 @@
+body {
+    background-color: pink;
+}
+
+.img1 {
+    background: url(../imagenes/flor1.jpg) no-repeat;
+}
+.img2 {
+    background: url(../imagenes/flor2.jpg) no-repeat;
+}
+.img3 {
+    background: url(../imagenes/flor3.jpg) no-repeat;
+}
+.img4 {
+    background: url(../imagenes/flor4.jpg) no-repeat;
+}
+.img5 {
+    background: url(../imagenes/flor5.jpg) no-repeat;
+}
+.img1:hover {
+    background: url(../imagenes/flor1bn.jpg) no-repeat;
+}
+.img2:hover {
+    background: url(../imagenes/flor2bn.jpg) no-repeat;
+}
+.img3:hover {
+    background: url(../imagenes/flor3bn.jpg) no-repeat;
+}
+.img4:hover {
+    background: url(../imagenes/flor4bn.jpg) no-repeat;
+}
+.img5:hover {
+    background: url(../imagenes/flor5bn.jpg) no-repeat;
+}
+
+header {
+    
+    width: 100%;
+    margin-top: 0%;
+    padding: 0%;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+
+header li {
+    width: 19.5%;
+    float: left;
+    height: 200px;
+
+}
+
+.nombre {
+    text-align: center;
+    color: blue;
+}
+
+/*Menú izquierda*/
+.menuizq {
+    width: 20%;                /* Asegúrate de que este ancho sea suficiente para el menú */
+    color: #000;
+    padding: 1em;
+    float: left;               /* Flota el menú a la izquierda */
+
+}
+
+.menuizq h2 {
+    color: #fff;
+    background-color: #ff5f6d;
+    margin-bottom: 0.5em;
+    font-size: 1.2em;
+}
+
+.menuizq ul {
+    list-style: none;
+    margin-bottom: 1.5em;
+}
+
+.menuizq li {
+    margin: 0.5em 0;
+}
+
+.menuizq li:hover {
+   padding: 0.5em;
+   background-color: blue;
+}
+.menuizq a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+}
+.menuizq a:hover {
+    color: #fff;
+}
+
+/* Sección de contenido */
+.derecha {
+    background-color: #ffffcc;
+    padding: 1em;
+    border: 1px solid #e0e0e0;
+    float: right;
+    width: 70%;
+    text-align: justify;
+}
+
+.derecha h1 {
+    background-color: #ffeb3b;
+    padding: 0.5em;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+.derecha p {
+    font-size: 1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+
+

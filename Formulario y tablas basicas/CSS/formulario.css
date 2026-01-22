@@ -1,0 +1,30 @@
+body {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.contenido {
+    background-color: gray;
+    width: 30%;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.nombre {
+    width: 70%;
+    border-radius: 10px;
+    border-color: white;
+    padding: 4px;
+}

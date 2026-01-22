@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/formulario.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="contenido"> 
+    <form action="" method="post">
+        <h1>Formulario</h1>
+        <label for="nombre">Nombre</label>
+        <input type="text" placeholder="Nombre" class="nombre" required><br><br>
+       
+        <label for="paises">Paises</label>
+
+        <select name="menu" id="menu" >
+            <option value="" disabled selected>Selecciona pais</option>
+            <option value="españa">España</option>
+            <option value="francia">Francia</option>
+            <option value="italia">Italia</option>
+            <option value="alemania">Alemania</option>
+        </select><br><br>
+
+       <label for="sexo">Sexo</label><br>
+       <input type="checkbox" name="hombre" id="hombre">Hombre <br>
+       <input type="checkbox" name="mujer" id="mujer">Mujer <br> <br>
+        Sugerencias<br>
+        <textarea name="texto" id="texto" cols="30" rows="10" placeholder="Escribe el texto"></textarea><br><br>
+
+        <div class="botones">
+         <button><a href="mailto:ejemplo@correo.com">Enviar correo</a><br><br></button>
+        <button type="submit">Enviar formulario</button>   
+        </div>
+        </div>
+        
+    </form>
+</body>
+</html>
